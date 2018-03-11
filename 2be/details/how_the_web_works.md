@@ -15,7 +15,7 @@ Review the materials below.
 Now we have a better grasp about the internet, and how some of the things are working. Now, let's answer a few questions to check our understanding. Don't be afraid to do additional research (googleing) for an answer. Fork this gist and answer the following questions:
 
 1. Describe, step by step, what happens when I type `www.example.com` into my browser and try to go to the page?  
-    Your computer sends a get request to your router asking for www.example.com. Your router uses your modem to send that message to your ISP. Your ISP communicates that to www.example.com's ISP. That ISP sends that message to a www.example.com router via a modem. That router sends a message to the example server. At each step in this process the requisite IP addresses are collected and packaged atop one another. www.example.com then sends a message through the chain in reverse using the prepackaged IP addresses to find its way.  
+    Your browser adds a . to the end of the URL. Your browser and OS then check to see if they know the IP address associated with that DNS. If they don't your OS communicates to a DNS resolver(see below) and gets the needed IP address. Then your computer sends a get request to your router asking for www.example.com. Your router uses your modem to send that message to your ISP. Your ISP communicates that to www.example.com's ISP. That ISP sends that message to a www.example.com router via a modem. That router sends a message to the example server. At each step in this process the requisite IP addresses are collected and packaged atop one another. www.example.com then sends a message through the chain in reverse using the prepackaged IP addresses to find its way.  
 1.  What does HTTP stand for?  
     Hypertext Transfer Protocol  
 1. 	What protocol does the World Wide Web use?  
@@ -29,7 +29,7 @@ Now we have a better grasp about the internet, and how some of the things are wo
   * D. ~~Domain Name Service~~
   * E. ~~Digital Name Service~~
 1. 	How are text domain names matched to their respective numeric IP addresses.  
-    A DNS resolver takes in the domain name and uses servers controlled by the Internet Assigned Numbers Authority in order to, through many steps along they way, match the domain name string with an associated IP(and possibly a more geographically narrowed response). This allows your ISP to connect your client/router with the IP you wanted to go to using the given domain name.  
+   If niether your browser nor OS knows the IP address then a DNS resolver takes in the domain name and communicates to the ROOT Server, TNS, and ANS to match the domain name string with an associated IP(and possibly a more geographically narrowed response). This allows your browser to connect your client/router with the IP you wanted to go to using the given domain name.  
 1. 	What is the client?
   * A. ~~A purchaser~~
   * B. ~~Internet shopping customer (Consumer)~~
