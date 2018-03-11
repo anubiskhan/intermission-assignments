@@ -45,17 +45,17 @@ Now we have a better grasp about the internet, and how some of the things are wo
  * D.	The standardised method for transferring data or documents over a network
  ~~* E.	The standardised method for prioratising data or document storage over a network~~
 1. What does DNS stand for?  
-    Domain Name System
+    Domain Name System.  
 1. what is the `www` portion of a url?  
-    A sub domain of the .example.com domain. It is just an additional specifier in the DNS.
+    A sub domain of the .example.com domain. It is just an additional specifier in the DNS.  
 1. What is The markup language used for all web documents?  
-    HTML, Hypertext Markup Language
+    HTML, Hypertext Markup Language.  
 1. What is the organization that monitors web technologies?  
-    W3C, World Wide Web Consortium.
+    W3C, World Wide Web Consortium.  
 1. What is the Protocol for transferring web documents on the Internet?  
-    TCP, Transmission Control Protocol
+    TCP, Transmission Control Protocol.  
 1. What matches the domain names with numeric IP addresses?  
-    A DNS resolver, typically via your ISP.
+    A DNS resolver, typically via your ISP.  
 
 
 
