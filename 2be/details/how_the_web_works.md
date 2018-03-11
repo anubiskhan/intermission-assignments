@@ -24,26 +24,26 @@ Now we have a better grasp about the internet, and how some of the things are wo
     Internet Protocol  
 1. 	What does DNS stand for?  
   * A. Domain Name System
-  ~~* B. Digital Number System
+  * B. ~~Digital Number System
   * C. Domain Number System
   * D. Domain Name Service
   * E. Digital Name Service~~
 1. 	How are text domain names matched to their respective numeric IP addresses.  
     A DNS resolver takes in the domain name and uses servers controlled by the Internet Assigned Numbers Authority in order to, through many steps along they way, match the domain name string with an associated IP(and possibly a more geographically narrowed response). This allows your ISP to connect your client/router with the IP you wanted to go to using the given domain name.  
 1. 	What is the client?
-  ~~* A. A purchaser
+  * A. ~~A purchaser
   * B. Internet shopping customer (Consumer)
   * C. The software which requests information from a server (browser)
   * D. The server to which a particular computer sends data~~
   * E. The computer which the IP address belongs to
 1. 	What does URL stand for?  
     Uniform Resource Locator, a subclass of Uniform Resource Identifier. It is essentially a web address.  
-1. 	What are protocols
- ~~* A. The standardisation of IP addressess
+1. 	What are protocols 
+ * A. ~~The standardisation of IP addressess
  * B. The DNS standard method for data transfer
- * C.	The standardised network address system~~
+ * C.	The standardised network address system ~~
  * D.	The standardised method for transferring data or documents over a network
- ~~* E.	The standardised method for prioratising data or document storage over a network~~
+ * E.	~~The standardised method for prioratising data or document storage over a network~~
 1. What does DNS stand for?  
     Domain Name System.  
 1. what is the `www` portion of a url?  
