@@ -53,7 +53,7 @@ Now we have a better grasp about the internet, and how some of the things are wo
 1. What is the organization that monitors web technologies?  
     W3C, World Wide Web Consortium.  
 1. What is the Protocol for transferring web documents on the Internet?  
-    TCP, Transmission Control Protocol.  
+    HTTP or HTTPS.  
 1. What matches the domain names with numeric IP addresses?  
     A DNS resolver, typically via your ISP.  
 
